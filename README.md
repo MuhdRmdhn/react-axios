@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# 2.9 Axios, Async and useEffect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependencies
 
-## Available Scripts
+Refer to the following markdown file for the respective sections of the class:
+- [Self Studies](studies.md)
+- [Lesson](./lesson.md)
+- [Assignment](./assignment.md)
 
-In the project directory, you can run:
+## Lesson Objectives
 
-### `npm start`
+Learners will understand:
+- How HTTP works.
+- How the anatomy of a HTTP Request and Response looks like (Such as URL, Verb, Headers, and Body).
+- What are the different ways to perform HTTP Requests (XMLHttpRequest, Fetch API and Axios).
+- What are Promises in JavaScript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Learners will be able to:
+- Perform HTTP requests for GET, POST, PUT, PATCH, and DELETE using Axios.
+- Perform HTTP requests with Authorization Header (Basic & Bearer).
+- Implement `async...await` and `.then().catch()` to retrieve the response data in axios.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Lesson Plan
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|Duration|What|How or Why|
+|--------|-----|-------|
+|- 5mins | Start zoom session | So that students can join early and start class on time|
+| 15 mins | Self studies check-in | Encourage students to ask questions in regards to their self studies material. |
+| 10 mins | Part 1 | Integrate axios into a React application |
+| 20 mins | Part 2 | Implement CRUD with `async...await` method |
+| 10 mins | Break | |
+|||**1 HOUR MARK**|
+| 20 mins | Part 3 | Putting Data on the Page with useEffect Hook |
+| 40 mins | Assignment | Briefing - Start assignment |
+|||**2 HOUR MARK**|
+| 45 mins || **ASSIGNMENT**  | 
+| 15 mins || Walkthrough, discussion + Q & A | 
+|||**END CLASS 3 HR MARK**|
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
